@@ -9,13 +9,13 @@ services:
 - docker build -t udagram-frontend ./udagram-frontend
 - docker build -t udagram-reversproxy ./udagram-reverseproxy
 # Tagging
-- docker tag udagram-api-feed sudkul/udagram-api-feed:v1
-- docker tag udagram-api-user ./udagram-api-user:v1
-- docker tag udagram-frontend sudkul/udagram-frontend:v1
-- docker tag udagram-reversproxy sudkul/udagram-reversproxy:v1
+- docker tag udagram-api-feed sherif102/udagram-api-feed:v1
+- docker tag udagram-api-user sherif102/udagram-api-user:v1
+- docker tag udagram-frontend sherif102/udagram-frontend:v1
+- docker tag udagram-reversproxy sherif102/udagram-reversproxy:v1
 #push
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-- docker push sudkul/udagram-api-feed:v1
-- docker push sudkul/udagram-api-user:v1
-- docker push sudkul/udagram-frontend:v1
-- docker push sudkul/udagram-reverseproxy:v1
+- docker push sherif102/udagram-frontend:v1
+- docker push sherif102/udagram-api-user:v1
+- docker push sherif102/udagram-reverseproxy:v1
+- docker push sherif102/udagram-api-feed:v1
