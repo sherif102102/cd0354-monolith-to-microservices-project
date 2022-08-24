@@ -17,5 +17,5 @@ script:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push sherif102/udagram-frontend:v1
 - docker push sherif102/udagram-api-user:v1
-- docker push sherif102/udagram-reverseproxy:v1
+- docker push sherif102/reverseproxy:v1
 - docker push sherif102/udagram-api-feed:v1
