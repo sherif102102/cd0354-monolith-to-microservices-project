@@ -14,7 +14,7 @@ script:
 - docker tag udagram-frontend sherif102/udagram-frontend:v1
 - docker tag udagram-reversproxy sherif102/udagram-reversproxy:v1
 #push
-
+- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push sherif102/udagram-frontend:v1
 - docker push sherif102/udagram-api-user:v1
 - docker push sherif102/udagram-reverseproxy:v1
