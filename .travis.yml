@@ -4,8 +4,8 @@ services: -docker
 
 script:
 # Build
-- docker build -t udagram-api-feed ./udagram-api-feedv:9
-- docker build -t udagram-api-user ./udagram-api-userv:9
+- docker build -t udagram-api-feed ./udagram-api-feed:v9
+- docker build -t udagram-api-user ./udagram-api-user:v9
 - docker build -t udagram-frontend ./udagram-frontend:v9
 - docker build -t reverseproxy ./udagram-reverseproxy:v9
 # Tagging
