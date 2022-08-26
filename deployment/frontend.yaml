@@ -20,8 +20,11 @@ spec:
         resources:
           limits:
             cpu: 500m
+            
           requests:
             cpu: 200m
+            
+            
 
 ---
 apiVersion: v1
