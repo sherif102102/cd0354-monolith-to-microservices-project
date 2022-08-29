@@ -5,11 +5,11 @@ metadata:
 
 data:
   
- POSTGRES_HOST: postgres.cimjuig9cqej.us-east-1.rds.amazonaws.com
+ POSTGRES_HOST: postgres.cczdhsxirchk.us-east-1.rds.amazonaws.com
  POSTGRES_PASSWORD: postgres
  POSTGRES_USERNAME: postgres
  POSTGRES_DB: postgres
- AWS_BUCKET: arn:aws:s3:::my-681268081671-bucket 
+ AWS_BUCKET: arn:aws:s3:::my-485669848213-bucket
  AWS_REGION: us-east-1
  AWS_PROFILE: default
  JWT_SECRET: testing
