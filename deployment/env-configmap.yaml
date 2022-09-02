@@ -5,12 +5,12 @@ metadata:
 
 data:
   
- POSTGRES_HOST: postgres.cczdhsxirchk.us-east-1.rds.amazonaws.com
- POSTGRES_PASSWORD: postgres
  POSTGRES_USERNAME: postgres
+ POSTGRES_PASSWORD: postgres
+ POSTGRES_HOST: postgres.cczdhsxirchk.us-east-1.rds.amazonaws.com
  POSTGRES_DB: postgres
  AWS_BUCKET: 485669848213
  AWS_REGION: us-east-1
  AWS_PROFILE: default
  JWT_SECRET: testing
- URL: http://ac7f6a2e8b2254e97b44e4bb31497ead-367010164.us-east-1.elb.amazonaws.com:8100 
+ URL: http://ac7f6a2e8b2254e97b44e4bb31497ead-367010164.us-east-1.elb.amazonaws.com:8100
