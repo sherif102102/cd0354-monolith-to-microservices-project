@@ -9,7 +9,7 @@ data:
  POSTGRES_PASSWORD: postgres
  POSTGRES_USERNAME: postgres
  POSTGRES_DB: postgres
- AWS_BUCKET: arn:aws:s3:::my-485669848213-bucket
+ AWS_BUCKET: 485669848213
  AWS_REGION: us-east-1
  AWS_PROFILE: default
  JWT_SECRET: testing
