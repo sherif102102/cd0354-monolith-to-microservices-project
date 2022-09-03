@@ -15,7 +15,7 @@ spec:
         app: backend-feed
     spec:
       containers:
-      - image: sherif102/udagram-api-feed:v3
+      - image: sherif102/udagram-api-feed:v4
         name: backend-feed
         imagePullPolicy: Always
         resources:
@@ -80,3 +80,18 @@ spec:
         - name: aws-secret
           secret:
             secretName: aws-secret
+
+---
+         apiVersion: v1
+         kind: Service
+         metadata:
+           labels:
+             service: backend-feed
+           name: backend-feed
+         spec:
+           ports:
+           - name: "8080"
+             port: 8080
+             targetPort: 8080
+           selector:
+             service: backend-feed
