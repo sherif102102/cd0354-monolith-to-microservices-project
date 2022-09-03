@@ -7,11 +7,11 @@ data:
   
   POSTGRES_USERNAME: postgres
   POSTGRES_PASSWORD: postgres
-  POSTGRES_HOST: postgres.cczdhsxirchk.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: postgres.cu1fjfq3wk7n.eu-central-1.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: arn:aws:s3:::485669848213
+  AWS_BUCKET: my-146366460354-bucket
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
-  URL: http://aa03f1cd8283b4d41afe8f593aff17c6-116429296.us-east-1.elb.amazonaws.com:8080/api/v0
+  URL: http://localhost:8080/api/v0
 
