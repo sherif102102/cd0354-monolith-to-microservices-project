@@ -7,10 +7,10 @@ data:
   
   POSTGRES_USERNAME: postgres
   POSTGRES_PASSWORD: postgres
-  POSTGRES_HOST: postgres.cu1fjfq3wk7n.eu-central-1.rds.amazonaws.com
+  POSTGRES_HOST: postgres.cugkgyalwbtr.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: s-146366460354-bucket
-  AWS_REGION: eu-central-1
+  AWS_BUCKET: my-s3-108329303561
+  AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
   URL: http://localhost:5432
